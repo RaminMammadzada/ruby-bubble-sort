@@ -1,12 +1,14 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
+Microverse School > 1 Ruby > Advanced Building Blocks - Bubble Sort
+
 # RUBY-bubble-sort
 
 > In this project we created two functions for the bubble sort algorithm by traditional method and by extende functionality via block addition and yield.
 
-![screenshot](./app_screenshot.png)
 
-Microverse School > 1 Ruby > Advanced Building Blocks - Bubble Sort
+![](assets/gifs/bubble-sort-1.gif)
+This is an animation of the bubble sort algorithm.
 
 ## Built With
 

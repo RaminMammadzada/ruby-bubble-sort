@@ -5,10 +5,10 @@ def bubble_sort(var_array)
     (0...iteration).each do |i|
       next unless var_array[i] > var_array[i + 1]
 
-          order_flag = false
-          aux = var_array[i]
-          var_array[i] = var_array[i + 1]
-          var_array[i + 1] = aux
+      order_flag = false
+      aux = var_array[i]
+      var_array[i] = var_array[i + 1]
+      var_array[i + 1] = aux
     end
     order_flag ? break : nil
 
@@ -25,10 +25,10 @@ def bubble_sort_by(var_array)
     (0...iteration).each do |i|
       next unless yield(var_array[i], var_array[i + 1]).positive?
 
-          order_flag = false
-          aux = var_array[i]
-          var_array[i] = var_array[i + 1]
-          var_array[i + 1] = aux
+      order_flag = false
+      aux = var_array[i]
+      var_array[i] = var_array[i + 1]
+      var_array[i + 1] = aux
     end
     order_flag ? break : nil
 
